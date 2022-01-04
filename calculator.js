@@ -142,3 +142,10 @@ equalButton.addEventListener("click", function (e) {
   calculator.compute();
   calculator.updateDisplay();
 });
+
+/* Lesson Learned 
+1. We can pass a dom as constructor parameter and access the dom attribute
+2. It's possible to use class as the constructor of app (to store the dom attribute, variable needed, and function) and instantiate it.
+3. don't use the value from the dom for calculation (e.g the previousOperandText.innerText), instead use the previousOperand stored in the class / object.
+
+*/
